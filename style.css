@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0d0d0d;
+  color:white;
+  font-family:'Segoe UI', sans-serif;
+  overflow-x:hidden;
+}
+
+/* HERO SECTION */
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  text-align:center;
+  overflow:hidden;
+}
+
+/* HEADLINE FIXED */
+.headline{
+  position:absolute;
+  top:12%;
+  width:100%;
+  text-align:center;
+  font-size:48px;
+  letter-spacing:12px;
+  font-weight:600;
+  opacity:0;
+  z-index:1;
+}
+
+/* STATS */
+.stats{
+  position:absolute;
+  top:28%;
+  display:flex;
+  gap:60px;
+  z-index:1;
+}
+
+.stat{
+  font-size:30px;
+  font-weight:bold;
+  opacity:0;
+  transform:translateY(20px);
+}
+
+.stat span{
+  display:block;
+  font-size:14px;
+  color:#bfbfbf;
+  margin-top:6px;
+  font-weight:normal;
+}
+
+/* IMAGE LAYER */
+.car{
+  width:65%;
+  max-width:750px;
+  position:absolute;
+  bottom:20px;
+  will-change:transform;
+  z-index:2;
+}
+
+/* NEXT SECTION */
+.content{
+  height:150vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:30px;
+}
