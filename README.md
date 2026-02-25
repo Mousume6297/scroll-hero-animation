@@ -15,7 +15,7 @@ A scroll-driven hero section animation built using HTML, CSS, JavaScript and GSA
 - GSAP
 
 ## 🚀 Live Demo
-(Add your GitHub Pages link here after deployment)
+https://mousume6297.github.io/scroll-hero-animation/
 
 ## 📂 GitHub Repository
 https://github.com/Mousume6297/scroll-hero-animation
